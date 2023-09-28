@@ -1,0 +1,41 @@
+*{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+body{
+        width:100vw;
+        height: 100vh;
+}
+.video-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .controls {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        z-index: 1;
+    }
+    
+    #play-pause {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }

@@ -1,0 +1,76 @@
+        *{
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        body{
+                width:100vw;
+                height: 100vh;
+                font-size: larger;
+        }
+.brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: darkslateblue;
+        padding: 20px;
+        color: powderblue;
+}
+.home{
+        margin: 20px;
+}
+.form{
+        display: flex;
+        justify-content: center;
+        gap: 1px;
+        align-items: center;
+}
+.submitBtn{
+        height: 55px;
+        width: 50px;
+        background:none;
+        border:none;
+        background-color: darkslateblue;
+        font-size: 20px;
+        color: powderblue;
+}
+input[type=text]{
+        height: 30px;
+        width: 200px;
+        padding: 10px;
+        border-width: 0px 0px 1px 0px;
+}
+input[type=text]:active,input[type=text]:focus{
+        border: 2px solid navy;
+}
+.content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+}
+.itemDiv{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
+        width: 275px;
+        border: 2px solid darkblue;
+        margin: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.itemTitle{
+        padding: 15px;
+        color: darkslateblue;
+}
+.delBtn{
+        padding: 20px;
+        background:none;
+        border:none;
+}
+.delBtn:hover{
+        cursor: pointer;
+        background-color: rgb(255, 168, 168);
+}

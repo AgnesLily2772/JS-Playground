@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+        <nav class="brand">
+                <h1>RPS Clash</h1>
+        </nav>
+        <div class="home">
+                <div class="ground" id="ground">
+                        <input type="radio" id="rock" name="choice" value="rock">
+                        <label for="rock" class="btn"><h1 class="id">Rock</h1><span>&#9994;&#127996;</span></label><br>
+                        <input type="radio" id="paper" name="choice" value="paper">
+                        <label for="paper" class="btn"><h1 class="id">Paper</h1><span>&#9995;&#127996;</span></label><br>
+                        <input type="radio" id="scissor" name="choice" value="scissor">
+                        <label for="scissor" class="btn"><h1 class="id">Scissor</h1><span>&#9996;&#127996;</span></label>
+                </div>
+                <div class="result" id="result">
+                        <div>
+                                <h3>Computer's Choice</h3>
+                                <span id="computer" class="btn"></span>
+                        </div>
+                        <div>
+                                <h3>Your Choice</h3>
+                                <span id="user" class="btn"></span>
+                        </div>
+                        <div class="board">
+                                <div class="res" id="board"></div>
+                                <button class="replayBtn" id="replayBtn">&#128260;Repay</button>
+                        </div>
+                </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>

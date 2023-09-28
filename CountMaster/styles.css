@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family: 'PT Serif', serif;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #f0f8ff;
+}
+nav{
+    background-color: #0e387a;
+    padding: 1rem;
+    text-align: center;
+    color: #f0f8ff;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    font-size: 25px;
+}
+button:hover{
+    background-color:#0e387a;
+    color:#f0f8ff;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.home{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+}
+.display{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

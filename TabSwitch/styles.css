@@ -1,0 +1,51 @@
+*{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+body{
+        width:100vw;
+        height: 100vh;
+}
+.brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: darkslateblue;
+        padding: 20px;
+        color: lightyellow;
+}
+.container{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+}
+.content{
+        display: grid;
+        grid-template-columns: auto auto;
+        border: 2px solid darkblue;
+        padding: 20px;
+        gap: 2rem;
+}
+.about{
+        margin: 20px 0px;
+}
+.title{
+        text-align: center;
+        font-size: 30px;
+}
+.btn{
+        width: 100px;
+        background-color: aliceblue;
+        padding: 10px;
+        color: navy;
+        border-radius: 10px;
+}
+.tabContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+}
